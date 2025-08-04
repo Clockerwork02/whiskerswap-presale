@@ -3,6 +3,10 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
+
+// Serve static files from attached_assets and public directories
+app.use('/attached_assets', express.static(path.join(__dirname, 'attached_assets')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 const PORT = 5000;
 
 // Serve static files
