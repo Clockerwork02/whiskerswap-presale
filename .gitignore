@@ -1,0 +1,113 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache
+.cache/
+
+# Backup files
+dex-backup/
+*.backup
+
+# Development files
+debug-*.js
+test-*.js
+inspect-*.js
+check-*.js
+verify-*.js
+fix-*.js
+optimize-*.js
+working-*.js
+quick-*.js
+simple-*.js
+temp-*.js
+correct-*.js
+match-*.js
+get-*.js
+
+# Documentation backups
+*.md.backup
+debug-summary.md
+dev-summary.txt
+
+# Contract artifacts
+artifacts/
+cache/
+
+# Deployment files
+*-deployment.json
+comprehensive-deployment.json
+multihop-deployment.json
+simple-aggregator-deployment.json
+
+# Package files
+package-contracts.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# UV lock file (Python)
+uv.lock
+
+# Replit specific
+.replit
+replit.md
+
+# Attached assets (user uploads)
+attached_assets/
