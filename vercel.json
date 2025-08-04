@@ -9,10 +9,12 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.js"
+      "dest": "/server.js"
     }
   ],
-  "env": {
-    "ALCHEMY_SOLANA_RPC_URL": "@alchemy_solana_rpc_url"
+  "functions": {
+    "server.js": {
+      "maxDuration": 10
+    }
   }
 }
